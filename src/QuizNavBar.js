@@ -22,16 +22,6 @@ export default function QuizNavBar() {
   const arr_questions_answer = questions.map(question => (
     question.answer))
 
-    // useEffect(() => {
-    //   if (state_answer === false) {
-    //     return 'Hidden answer';
-    // } else {
-    //     const arr_questions_answer = questions.map(question => (
-    //     question.answer))
-    //     return arr_questions_answer[questionIndex];
-    //   }
-    // }, [state_answer, questionIndex]) }
-
   const toggleFunc = () => {
     if (state_answer === false) {
       setState_answer(true);
